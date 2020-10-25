@@ -16,10 +16,9 @@ The following **required** functionality is completed:
 
 The following **extensions** are implemented:
 
-* [ ] When a map marker is created, the pin is animated.
-* [ ] Changed color scheme to match the native Google Maps colors 
-* [ ] Persist maps to local storage 
-* [ ] Changed animations 
+* [x] Changed color scheme to match the native Google Maps colors 
+* [x] Persist maps to local storage 
+* [x] Changed animations 
 
 ## Video Walkthrough
 
