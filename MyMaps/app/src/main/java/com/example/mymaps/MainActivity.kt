@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val userMaps = deserializeUserMaps(this).toMutableList()
+        userMaps = deserializeUserMaps(this).toMutableList()
         // set layout manager of recycler view (delegate)
         rv_maps.layoutManager = LinearLayoutManager(this)
         // set adapter on the recycler view (data source)
